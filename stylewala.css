@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 
+{
+    background-color: aquamarine;
+    margin-top: 5px;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    margin-bottom: 15px;
+
+}
+
+
+.had {
+    margin-left: 5px;
+    padding-bottom: 5px;
+
+}
+
+.idr {
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.idm {
+    
+}
+@media (max-width: 470px)
+{
+    .center{
+        width: 88%;
+    }
+}

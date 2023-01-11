@@ -1,0 +1,87 @@
+*{
+    margin: 0 ;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.header {
+    height: 50vh;
+}
+
+.navbar-style{
+    box-shadow: 0 5px 10px;
+    text-transform: uppercase;
+    color: rgb(62, 48, 145);
+    border-radius: 50px;
+}
+.logo {
+    height: 75px;
+    padding: 0px 10px;
+}
+.icon-bar {
+    background: black;
+}
+#micon:hover{
+    box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition:all 0.3s ease;
+}
+#micon {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li a{
+    color: black;
+}
+
+.big-text
+{
+    font-size: 52px;
+    margin: 20px 0;
+    color: darkorange;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+
+a.btn {
+    margin: 30px 10px;
+    width: 213px;
+    padding: 10px;
+    border-radius: 20px;
+    background: transparent;
+    border: 1px solid orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.hri{
+    border-top: 1px solid rgb(0, 0, 0);
+
+}
+
+
+.imgp {
+    height: 261px;
+}
+.anuj {
+
+    margin-left: 17px;
+    box-shadow: 2px 2px 2px 2px black;
+     height: 150px;
+}
+
+
+.mechbhai {
+    text-align: center;
+    color: black;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ text-transform: uppercase;
+ 
+}
+
+.img-thumbnail {
+ height: 220px;
+}

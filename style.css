@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(thumb-1920-26102.jpg);
+    padding: 0 10px;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.center h1{
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid silver;
+    margin-top: 12px;
+    font-family: kalam;
+    font-size: 50px;
+    text-shadow: 2px 2px skyblue;
+    
+}
+
+.form {
+    padding-bottom: 15px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.textfiled {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    border: 2px solid #5c15df;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin: 7px 0;
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    background-color: #ed0000;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 7px 0;
+    color: white;
+    border: 0;
+    cursor: pointer; 
+}
+
+.btn:hover
+{
+    background-color: rgb(15, 15, 16);
+}
+
+.forgetpass {
+    font-size: 16px;
+    padding: 4px 0;
+    margin: 3px;
+}
+
+.link {
+    text-decoration: none;
+}
+.e{
+    text-shadow: 2px 2px rgb(206, 220, 9);
+    font-size: 77px;
+}
+
+@media (max-width: 470px)
+{
+    .center{
+        width: 88%;
+    }
+}
